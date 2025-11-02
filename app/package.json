@@ -1,0 +1,13 @@
+{
+  "name": "bluegreen-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -e \"fetch='node-fetch'; process.exit(0)\""
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "prom-client": "^15.1.3"
+  }
+}

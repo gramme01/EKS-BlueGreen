@@ -116,4 +116,4 @@ resource "aws_codepipeline" "pipeline" {
   }
 }
 
-# TODO: CloudWatch event (CodePipeline webhook) can be added as needed; recommend GitHub webhook configuration in console.
+# TODO: Maybe add CloudWatch Alarms for pipeline failures
