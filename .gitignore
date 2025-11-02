@@ -1,0 +1,53 @@
+#General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+.idea/
+.vscode/
+
+
+
+# Terraform specific
+**/terraform/.terraform/
+**/terraform/*.tfstate
+**/terraform/*.tfstate.*
+**/terraform/.terraform.lock.hcl
+**/terraform/terraform.tfvars
+**/terraform/*.tfvars
+**/terraform/*.tfvars.json
+**/terraform/.terraformrc
+**/terraform/terraform.rc
+**/terraform/crash.log
+**/terraform/override.tf
+**/terraform/override.tf.json
+**/terraform/.terraform.tfstate.lock.info
+
+
+# Node.js specific
+**/app/node_modules/
+**/app/npm-debug.log*
+**/app/yarn-debug.log*
+**/app/yarn-error.log*
+**/app/.npm
+**/app/.yarn/
+**/app/.yarnrc
+# **/app/package-lock.json
+**/app/yarn.lock
+**/app/coverage/
+**/app/test-reports/
+**/app/.nyc_output/
+**/app/.eslintcache
+**/app/dist/
+**/app/build/
+
+# Docker specific
+**/app/Dockerfile.dev
+**/app/docker-compose.override.yml
+# **/app/.dockerignore
